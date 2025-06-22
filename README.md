@@ -10,9 +10,9 @@ GAN consists of two networks, including the generator and discriminator. They ar
 ## 2. Ethics and AI Harm
 ### Question:
 Choose one of the following real-world AI harms discussed in Chapter 12:
-•	Representational harm
-•	Allocational harm
-•	Misinformation in generative AI
+- Representational harm
+- Allocational harm
+- Misinformation in generative AI
 Describe a real or hypothetical application where this harm may occur. Then, suggest two harm mitigation strategies that could reduce its impact based on the lecture.
 ### Answer:
 #### Allocational harm
@@ -44,7 +44,7 @@ From the loss plot:
 - Discriminator Loss gradually decreased, indicating better classification of real vs. fake digits.
 ## 4.Programming Task (Data Poisoning Simulation)
 ### Description:
-This code simulates a data poisoning attack on a basic sentiment classifier trained on short movie reviews. The attack targets reviews that reference a specific entity — in this case, "UCM" — by flipping their sentiment labels, thus corrupting the training data. This demonstrates how a small, targeted manipulation can severely degrade the model’s performance. 
+This code simulates a data poisoning attack on a basic sentiment classifier trained on short movie reviews. The attack targets reviews that reference a specific entity, in this case, "UCM" by flipping their sentiment labels, thus corrupting the training data. This demonstrates how a small, targeted manipulation can severely degrade the model’s performance. 
 ### Discussion:
 The accuracy dropped from 33% to 0% due to poisoning and all test samples were misclassified after the attack.
 
